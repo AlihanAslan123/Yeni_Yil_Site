@@ -1,0 +1,60 @@
+body{
+    background-image: url(24.jpg);
+    background-position:center;
+    background-size:56%;
+    background-repeat:repeat-x;
+}
+div.x{
+    height: 50vh;
+    width: 80vh;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 10%;
+    border: 7px ridge palevioletred;
+    box-sizing: border-box; /* padding kullanırken çerçevenin genilemesini uzamasını önler */
+
+}
+p{
+    font-weight: bold;
+    line-height: 6vh;
+    color: blue;
+}
+iframe#vid{
+    position: absolute;
+    right: 10px;
+    bottom: 2%;
+}
+div.y{
+    position: absolute;
+    left: 40%;
+    margin-top: 15px;
+}
+div.y button{
+    margin: 20px;
+    height: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+iframe[name="buraya"]{
+   position: relative;
+   bottom: 25px;
+}
+div.y a:nth-child(1) button{
+   background-color: blue;
+}
+div.y a:nth-child(2) button{
+    background-color: green;
+}
+div.y a:nth-child(3) button{
+    background-color: orange;
+}
+div.y a:nth-child(4) button{
+    background-color: blueviolet;
+}
+img{
+    position: absolute;
+    top:10;
+}
